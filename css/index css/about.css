@@ -9,22 +9,24 @@
     color: white;
 }
 .container-about .content-about{
+    width: 90%;
+    transform: translateX(5.5%);
     height: auto;
     display: grid;
-    margin-top: 40px;
 }
 .container-about .content-about .img{
-    border-radius: 4px;
     transition: .4s;
     text-align: center;
+    animation: float 3s ease-in-out infinite;
 }
-.container-about .content-about .img:hover{
-    transform: scale(105%);
-    transition: .4s;
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
 }
 .container-about .content-about .text{
     color: white;
-}
-.container-about .content-about .btn .fa{
-    font-size: 28px;
 }
