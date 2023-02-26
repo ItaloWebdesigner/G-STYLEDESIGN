@@ -9,15 +9,16 @@
     font-size: 35px;
     color: white;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 20px;
+    font-family: 'Roboto Slab', serif;
 }
 .container-orca .content .btn .fa{
     font-size: 30px;
 }
 .container-orca .content .btn{
-    font-size: 22px;
+    font-size: 25px;
     padding: 10px 60px;
-    margin-right: 30px;
+    margin-right: 20px;
     border-radius: 4px;
     color: white;
     text-decoration: none;
@@ -43,6 +44,7 @@
     font-size: 35px;
     color: white;
     margin: 0px 10px;
+    font-family: 'Roboto Slab', serif;
 }
 .container-orca-mobal .content .btn .fa{
     font-size: 30px;
@@ -68,6 +70,7 @@
     font-size: 25px;
     color: black;
     margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
 }
 .container-footer .content .imglogofooter{
     border-radius: 4px;
@@ -79,4 +82,5 @@
     padding: 20px 0px;
     background-color: rgb(31, 31, 31);
     color: white;
+    font-family: 'Raleway', sans-serif;
 }

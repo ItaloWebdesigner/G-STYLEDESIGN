@@ -22,7 +22,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
@@ -62,6 +62,9 @@
        </div>
       </div>
     </div>
+    <div class="container-top">
+      <a href="#"><img src="images/top.png"></a>
+    </div>
     <input type="checkbox" id="check">
     <label onclick="animar()" id="container-burger" for="check" class="nav">
       <span class="burger"></span>
@@ -75,38 +78,42 @@
     <div class="menu">
       <div ></div>
       <div class="content">
-        <a href="#home" class="text">Casa</a>
-      </div>
-      <div class="content">
         <a href="#about" class="text">Sobre</a>
       </div>
       <div class="content">
         <a href="#services" class="text">Serviços</a>
       </div>
       <div class="content">
+        <a href="#skill" class="text">Habilidades</a>
+      </div>
+      <div class="content">
         <a href="#produtos" class="text">Websites</a>
       </div>
       <div class="content">
-        <a href="animation.html" class="text">Animações</a>
+        <a href="#contact" class="text">Contato</a>
       </div>
       <div class="content">
         <a href="desingers.html" class="text">Artes</a>
       </div>
     </div>
-    <div class="container-header">
-      <div class="container-info-header">
-        <div class="static">Somos</div>
-        <ul class="dynamic">
-          <li><span>Designer</span></li>
-          <li><span>Front-end</span></li>
-          <li><span>Designer</span></li>
-          <li><span>Front-end</span></li>
-        </ul>
+    <div class="container-info-header">
+      <div class="content">
+      <div class="static">Somos</div>
+      <ul class="dynamic">
+        <li><span>Designer</span></li>
+        <li><span>Front-end</span></li>
+        <li><span>Designer</span></li>
+        <li><span>Front-end</span></li>
+      </ul>
       </div>
+    </div>
+    <div class="container-header">
       <div class="text">Oi, é um prazer ter você aqui! Neste site você irá conhecer um pouco sobre nós, verá alguns dos nossos projetos e trabalhos, de forma que você decida se somos a melhor opção para fazer o design do seu negócio.</div>
     </div>
     <div class="header">
       <img src="images/G-back.png" class="img-header">
+      <img src="images/g-backresponsive-1.png" class="img-header-1">
+      <img src="images/g-backresponsive-2.png" class="img-header-2">
     </div>
 
     <div class="container-about" id="about">
@@ -117,7 +124,7 @@
           <img src="images/sobrenos.png" class="img">
         </div>
         <div class="info">
-          <div class="text">Oi, somos a G-STYLE! Uma empresa de pequeno porte que atua na área de Web design, fazendo de sites até cartões de visita, nós da G-STYLE vamos fazer do útil ao agradável para que o seu negócio tenha o designer ideal, garantindo que fique chamativo para os seus clientes ao mesmo tempo passando credibilidade, indentidade e a convicção do seu empreendimento.</div>
+          <div class="text">Oi, somos a G-STYLE! Uma empresa de pequeno porte que atua na área de design, fazendo de sites até cartões de visita, nós da G-STYLE vamos fazer do útil ao agradável para que o seu negócio tenha o designer ideal, garantindo que fique chamativo para os seus clientes ao mesmo tempo passando credibilidade, indentidade e a convicção do seu empreendimento.</div>
         </div>
       </div>
     </div>
@@ -175,39 +182,61 @@
       </div>
       <div class="content">
         <a href="https://www.tiktok.com/@gstyledesign?_t=8Z4vTQlE8OL&_r=1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="tiktok"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a>
-        <div class="container-text"><a href="#" class="text">SEGUIR</a></div>
+        <div class="container-text"><a href="#" class="text" id="skill">SEGUIR</a></div>
       </div>
     </div>
 
     <div class="container-skill">
       <div class="title-skill">Habilidades</div>
       <div class="bar"></div>
-      <div class="text-skill">Veja nosso nível de habilidade nas principais linguagens que utilizamos para fazer sites.</div>
-    <div class="content-skill">
-      <div class="skill">
-        <div class="skill-name">HTML</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="90%" style="max-width:90%"></div>
+      <div class="text-skill">Veja as ferramentas que utilzamos para criar websites,artes digitais e<br>artes impressas, respectivamente.</div>
+      <div class="content-skill">
+        <div class="margin">
+        <div class="content">
+          <div class="icon"><img src="images/iconhtml.png" class="ajuste"></div>
+          <div class="title">HTML5</div>
+          <div class="text">Utilizado para criar o corpo de um site, toda sua estrutura.</div>
+        </div>
+        </div>
+        <div class="margin">
+        <div class="content">
+          <div class="icon"><img src="images/iconcss.png" class="ajuste"></div>
+          <div class="title">CSS3</div>
+          <div class="text">Usamos para dar estilo aos sites, cor, fontes, organização, entre outros.</div>
+        </div>
+        </div>
+        <div class="margin">
+        <div class="content">
+          <div class="icon"><img src="images/iconjava.png" class="ajuste"></div>
+          <div class="title">javascript</div>
+          <div class="text">Utilizamos para o aprimoramento dos sites, seja no estilo ou em funções.</div>
+        </div>
+        </div>
+        <div class="margin">
+        <div class="content">
+          <div class="icon"><img src="images/iconboostrap.png"></div>
+          <div class="title">Bootstrap</div>
+          <div class="text">Usado como facilitador na criação de sites, com estruturas pré montadas.</div>
+        </div>
+        </div>
+        <div class="margin">
+        <div class="content">
+          <div class="icon"><img src="images/iconcanva.png"></div>
+          <div class="title">Canva</div>
+          <div class="text">Utilizado para criação de artes para web, posts, storys, capas para sites, entre outros.</div>
+        </div>
+        </div>
+        <div class="margin">
+        <div class="content">
+          <div class="icon"><img src="images/iconcorel.png" class="ajuste"></div>
+          <div class="title">CorelDRAW</div>
+          <div class="text" id="produtos">Usamos na criação de artes para impressão, caneca, banners, panfletos, entre outros.</div>
+        </div>
         </div>
       </div>
-  
-      <div class="skill">
-        <div class="skill-name">CSS</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="80%" style="max-width:80%"></div>
-        </div>
-      </div>
-  
-      <div class="skill">
-        <div class="skill-name">JS</div>
-        <div class="skill-bar" id="produtos">
-          <div class="skill-per" per="25%" style="max-width:28%"></div>
-        </div>
-      </div>
-    </div>
     </div>
 
-    <div class="container-bar" id="produtos">
+    <div class="container-bar">
       <div class="title-portfolio">Websites</div>
       <div class="bar"></div>
       <div class="text-portfolio">Aqui está alguns dos nossos principais projetos e trabalhos.</div>
@@ -272,7 +301,7 @@
     </div>
     </div>
 
-    <div class="container-orca">
+    <div class="container-orca" id="contact">
       <div></div>
       <div class="content">
         <div class="text">Faça um orçamento sem compromisso</div>
@@ -282,7 +311,7 @@
       </div>
       <div></div>
     </div>
-    <div class="container-orca-mobal">
+    <div class="container-orca-mobal" id="contact">
       <div class="content">
         <div class="text">Faça um orçamento sem compromisso.</div>
       </div>

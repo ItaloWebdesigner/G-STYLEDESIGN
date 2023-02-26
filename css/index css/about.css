@@ -7,6 +7,7 @@
     width: 100%;
     height: auto;
     color: white;
+    font-family: 'Roboto Slab', serif;
 }
 .container-about .content-about{
     width: 90%;
@@ -17,16 +18,8 @@
 .container-about .content-about .img{
     transition: .4s;
     text-align: center;
-    animation: float 3s ease-in-out infinite;
-}
-@keyframes float{
-    0%, 100%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-20px);
-    }
 }
 .container-about .content-about .text{
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
